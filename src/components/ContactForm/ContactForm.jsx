@@ -17,16 +17,16 @@ export default function ContactForm() {
 
     if (!includeContact) {
       const name = form.elements.name.value;
-      const phone = form.elements.number.value;
+      const number = form.elements.number.value;
 
-      if (name.trim() === '' || phone.trim() === '') {
+      if (name.trim() === '' || number.trim() === '') {
         alert(`Please enter the contact's name and number.`)
         return;
       }
 
       dispatch(addContact({
         name,
-        phone,
+        number
       }));
     } else {
       alert(`A contact with the name ${form.elements.name.value} already exists`);

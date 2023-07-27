@@ -55,7 +55,7 @@ export default function ContactForm() {
           title="Valid Phone Number: Optional '+' Symbol, Digits, Spaces, Hyphens, and Parentheses"
           required
         />
-        <button type="submit" className={css.formButton}>
+        <button type="submit" className={css.button}>
           Add contact
         </button>
       </form>

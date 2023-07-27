@@ -18,3 +18,56 @@ code {
 image {
   display: block;
 }
+
+body,
+p,
+input,
+select,
+textarea,
+button {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: -0.2px;
+  font-size: 16px;
+}
+
+div,
+p {
+  color: #87ceeb;
+  text-shadow: 1px 1px 1px #fff;
+}
+
+form {
+  padding: 16px;
+  width: 16px * 20;
+  margin: 0 auto;
+}
+
+button,
+input {
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  border-radius: 16px * 20;
+  padding: 16px;
+  background-color: #fff9e0;
+  text-shadow: 1px 1px 0 #fff;
+}
+
+label {
+  display: block;
+  width: 100%;
+}
+
+input {
+  margin-right: 16px / 2;
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  appearance: none;
+  -webkit-appearance: none;
+
+  &:focus {
+    box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+  }
+}

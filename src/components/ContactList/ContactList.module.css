@@ -1,0 +1,11 @@
+.button {
+  font-weight: 600;
+  color: #382b22;
+  padding: 3px;
+  background: #fff9e0;
+  border: 2px solid #17a2b8;
+  border-radius: 0.75em;
+  transform-style: preserve-3d;
+  transition: transform 150ms cubic-bezier(0, 0, 0.58, 1),
+    background 150ms cubic-bezier(0, 0, 0.58, 1);
+}

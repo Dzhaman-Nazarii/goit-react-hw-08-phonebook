@@ -23,7 +23,7 @@ export default function ContactList() {
             {name}: {phone}
             <button
               type="button"
-              className={css.buttonList}
+              className={css.button}
               id={id}
               onClick={() => {handleDelete(id)}}>
               Delete

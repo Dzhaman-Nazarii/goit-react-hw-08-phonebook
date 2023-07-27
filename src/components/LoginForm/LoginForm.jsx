@@ -27,7 +27,7 @@ export const LoginForm = () => {
         Password
         <input type="password" name="password" />
       </label>
-      <button type="submit">Log In</button>
+      <button type="submit" className={css.button}>Log In</button>
     </form>
   );
 };
